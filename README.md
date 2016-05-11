@@ -13,7 +13,7 @@ Yii2-categories can be installed using composer. Run following command to downlo
 install Yii2-categories:
 
 ```bash
-composer require "yiimodules/yii2-categories:1.0.*"
+php composer.phar require salehasadi/yii2-category "dev-master"
 ```
 
 ### 2. Configure
@@ -25,7 +25,7 @@ Add following lines to your main configuration file to access this module via we
 'modules' => [
 	'redactor' => 'yii\redactor\RedactorModule',
     'categories' => [
-        'class' => 'yiimodules\categories\Module',
+        'class' => 'salehasadi\category\Module',
     ],
 ],
 ```
@@ -37,20 +37,6 @@ migrations. Make sure that you have properly configured `db` application compone
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/yiimodules/yii2-categories/migrations
+$ php yii migrate/up --migrationPath=@vendor/salehasadi/yii2-category/migrations
 ```
 
-## Run module?
-
-```bash
-$ http://localhost/YOUR-PROJECT-NAME/web/index.php?r=categories
-```
-
-## Get category list in frontend
-
-```php
-// To list all the categories & sub categories in array response
-Yii::$app->getModule('categories')->getAll();
-// To list specific category with sub categories in array response, here 4 is category Id I'm fetching.
-Yii::$app->getModule('categories')->getOne(4); 
-```
