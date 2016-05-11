@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
  
-namespace yiimodules\categories\controllers;
+namespace salehasadi\category\controllers;
 
 use Yii;
-use yiimodules\categories\models\Categories;
-use yiimodules\categories\models\CategorySearch;
+use salehasadi\category\models\Categories;
+use salehasadi\category\models\CategorySearch;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
  
-namespace yiimodules\categories;
+namespace salehasadi\category;
 use yii\helpers\Url;
 /**
  * categories module definition class

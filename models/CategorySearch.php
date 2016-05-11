@@ -1,11 +1,11 @@
 <?php
 
-namespace yiimodules\categories\models;
+namespace salehasadi\category\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use yiimodules\categories\models\Categories;
+use salehasadi\category\models\Categories;
 
 /**
  * CategorySearch represents the model behind the search form about `backend\models\Category`.

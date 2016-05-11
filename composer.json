@@ -1,17 +1,17 @@
 {
-  "name": "yiimodules/yii2-categories",
+  "name": "salehasadi/yii2-category",
   "description": "Complete category management system",
   "keywords": [
-    "yii2","Category management","Categories"
+    "yii2","Category management","Category"
   ],
   "type": "yii2-extension",
   "homepage": "http://www.yiimodules.com",
   "license": "MIT",
   "authors": [
     {
-      "name": "Yii Modules",
-      "email": "info@yiimodules.com",
-      "homepage": "http://www.yiimodules.com"
+      "name": "salehasadi",
+      "email": "salehasadi@gmail.com",
+      "homepage": ""
     }
   ],
   "minimum-stability": "dev",
@@ -23,7 +23,7 @@
   },
   "autoload": {
         "psr-4": {
-            "yiimodules\\categories\\": ""
+            "salehasadi\\category\\": ""
         }
     }  
 }
