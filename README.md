@@ -24,7 +24,7 @@ Add following lines to your main configuration file to access this module via we
 ```php
 'modules' => [
 	'redactor' => 'yii\redactor\RedactorModule',
-    'categories' => [
+    'category' => [
         'class' => 'salehasadi\category\Module',
     ],
 ],
